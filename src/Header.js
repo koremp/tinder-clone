@@ -23,9 +23,6 @@ function Header({ backButton }) {
                 </IconButton>
             )}
 
-            <IconButton>
-                <PersonIcon className="header__icon" fontSize="large" />
-            </IconButton>
             <Link to="/">
                 <img
                     className="header__logo"
